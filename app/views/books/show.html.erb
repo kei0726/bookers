@@ -1,0 +1,12 @@
+<tr>
+	<td>Title:</td><td><%= @book.title %></td>
+</tr>
+
+<br>
+
+<tr>
+	<td>Body:</td><td><%= @book.body %></td>
+</tr>
+<br>
+<%= link_to "Edit",edit_book_path(@book) %>
+<%= link_to "Destroy",book_path(@book), method: :delete %>
