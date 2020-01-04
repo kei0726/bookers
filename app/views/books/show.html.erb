@@ -1,4 +1,5 @@
 <tr>
+<br>
 	<td>Title:</td><td><%= @book.title %></td>
 </tr>
 
@@ -9,4 +10,4 @@
 </tr>
 <br>
 <%= link_to "Edit",edit_book_path(@book) %>
-<%= link_to "Destroy",book_path(@book), method: :delete %>
+<%= link_to 'back', :back %>
